@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package herencia.github;
-
-/**
- *
- * @author uestudiantes
- */
 public class NPCs extends Personajes {
-    
+    String profecion = "";
+    boolean interaccion;
+    int amistad = 0;
 }

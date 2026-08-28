@@ -28,5 +28,22 @@ public static void main(String[] args) {
     herrero.setVida(200);
     herrero.setDaño(32.41);
     herrero.setAmistad(50);
+    
+    System.out.println("Estadisticas de "+player.getNombre()+":");
+    System.out.println("Vida: "+player.getVida()+"   |   Dano: "+player.getDaño());
+    System.out.println("Clase: "+player.getClase()+"   |   Nivel: "+player.getNivel());
+    System.out.println("XP: "+player.getExperiencia()+"   |   Dinero: "+player.getDinero());
+    System.out.println("-------------------------------------------------------------------");
+    
+    System.out.println("Estadisticas de "+herrero.getNombre()+":");
+    System.out.println("Vida: "+herrero.getVida()+"   |   Dano: "+herrero.getDaño());
+    System.out.println("Profecion: "+herrero.getProfecion()+"   |   Nivel: "+herrero.getNivel());
+    System.out.println("Interaccion: "+herrero.getInteraccion()+"   |   Amistad: "+herrero.getAmistad());
+    System.out.println("-------------------------------------------------------------------");
+    
+    System.out.println("Estadisticas de "+enemigo1.getNombre()+":");
+    System.out.println("Vida: "+enemigo1.getVida()+"   |   Dano: "+enemigo1.getDaño());
+    System.out.println("Raza: "+enemigo1.getRaza()+"   |   Nivel: "+enemigo1.getNivel());
+    System.out.println("Jefe: "+enemigo1.getJefe()+"   |   Recompensa: "+enemigo1.getRecompensa());
     }
 }

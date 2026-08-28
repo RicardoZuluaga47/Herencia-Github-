@@ -1,8 +1,8 @@
 package herencia.github;
 public class NPCs extends Personajes {
-    String profecion = "";
-    boolean interaccion;
-    int amistad = 0;
+    private String profecion = "";
+    private boolean interaccion;
+    private int amistad = 0;
     
     public int getAmistad(){
         return amistad;

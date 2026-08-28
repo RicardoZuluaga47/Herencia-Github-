@@ -1,8 +1,8 @@
 package herencia.github;
 public class Jugador extends Personajes {
-    double experiencia = 0;
-    String clase = "";
-    int dinero = 0;
+    private double experiencia = 0;
+    private String clase = "";
+    private int dinero = 0;
     
     public double getExperiencia(){
         return experiencia;
